@@ -73,7 +73,7 @@ public:
 		do {
 			//generate food position
 			x = rand() % 48 + 1;
-			y = rand() % 28 + 1;
+			y = rand() % 18 + 1;
 		} while (isValidFoodPosition(x, y) == false);
 
 		//assign food
